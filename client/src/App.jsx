@@ -11,7 +11,7 @@ import {
   RhsBoxItem,
 } from "./components/index";
 
-const varsURL = "http://localhost:5000/api/v1/vars";
+const varsURL = "https://equation-calc-server.onrender.com/api/v1/vars";
 
 const App = () => {
   const [varList, setVarList] = useState([]);
